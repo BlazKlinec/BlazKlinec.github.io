@@ -1,0 +1,190 @@
+body {
+  background-color: #99DBEB;
+  color: #000000;
+
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+  margin:0;
+
+
+
+}
+
+.na_sredino {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 23px;
+  text-align: center;
+}
+
+
+
+.skatlica-No_1{
+  background-color: #FFF6A2
+  color: #ffffff
+  border: 5px green solid;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 23px;
+  text-align: center;
+
+}
+
+
+.container1{
+  width:80%;
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 23px;
+  background-color: #A869FF;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: center;
+
+}
+
+.container2{
+  text-align: center;
+  margin-top: auto;
+  text-align: center;
+
+}
+
+
+.vsi_buttoni{
+
+  color: yellow;
+  /* padding: 10px 15px; */
+  border-radius: None;
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 23px;
+
+
+}
+
+.btn{
+  border: 3px solid #A869FF;
+  background: #FCF8CA;
+  padding: 10px 20px;
+  font-size: 23px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.6s;
+  position: relative;
+  overflow: hidden;
+
+
+}
+
+.btn1, .btn2, .btn3, .btn4, .submit{
+  color:#000000;
+  border-radius: 10px
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .submit:hover {
+  color: #FFF6A2;
+  background: #8CCEFF;
+
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  transition: 1.2s
+}
+
+
+
+/*FOOTERČEK IZ MAIN */
+.footer {
+  background: #999EFF;
+  color: black;
+  height: 200px;
+  width:100%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.footer .footer-bottom {
+  background: #9780E8;
+  color: black;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+
+}
+
+
+.footer .footer-content {
+  border: 2px solid #FFF6A2;
+
+}
+
+
+
+
+.kontaktna_forma {
+  margin-top: 83px;
+  color: #000000;
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 23px;
+
+
+}
+
+.naslov_za_formo h2{
+  color: #000000;
+
+}
+
+
+
+form{
+
+  margin-top: 50px;
+  color: black;
+
+}
+.banner{
+
+  margin-bottom: 23px;
+
+
+}
+
+.kontaktna_forma{
+  margin-left: 15%;
+  margin-right:15%;
+  margin-bottom: 23px;
+}
+
+
+.submit{
+  margin-left: 53%;
+
+}
+
+.form-control {
+
+  width: 800px;
+  background: #8CCEFF;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid yellow;
+  color:  #000000;
+  font-size: 23px;
+  margin-bottom: 16px;
+}
